@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/Cajas.css">
+    <title>Cajas</title>
+</head>
+<body onload="Cajas();">
+    <h1>Cajas</h1>
+    <script type="text/javascript">
+        function Cajas(){
+            var nc=prompt("¿Cuántas cajas desea insertar?");
+            var i=1;
+            if(nc<8){
+                while(i<=nc){
+                    document.write('<article id="menora8" style="color:#f3c623;background:#10375c;margin-bottom:5px">Caja'+i+'</article>');
+                    i++;
+                }
+            }
+            else{
+                while(i<=nc){
+                    document.write('<article id="mayora8" style="color:#10375c;background:#f3c623;display: inline-block;margin-left:5px;margin-right:5px">Caja'+i+'</article>');
+                    i++;
+                }
+            }
+        }
+    </script>
+    <footer>
+        <h1>Indice</h1><br>
+        <ul>
+            <a href="Voto.html">Voto</a><br>
+            <a href="Cajas.html">Cajas</a><br>
+            <a href="Suma.html">Suma</a><br>
+            <a href="Calculadora.html">Calculadora</a><br>
+            <a href="Factorial.html">Factorial</a>
+        </ul>
+    </section>
+    </footer>
+</body>
+</html>

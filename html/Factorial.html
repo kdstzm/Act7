@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/Factorial.css">
+    <title>Factorial</title>
+</head>
+<body>
+    <section>
+        <p id="Factorial"></p>
+    </section>
+    <script type="text/javascript">
+    var num=prompt("Indroduce el número del que deseas saber su factorial");
+    var i; var fact=1;
+    for(i=num;i>=1;i--){
+        fact=fact*i;
+    }
+    document.getElementById("Factorial").innerHTML="El factorial del número "+num+" es "+fact;
+    </script>
+     <footer>
+        <ul>
+            <a href="Voto.html">Voto</a>
+            <a href="Cajas.html">Cajas</a>
+            <a href="Suma.html">Suma</a>
+            <a href="Calculadora.html">Calculadora</a>
+            <a href="index.html">Index</a>
+        </ul>
+    </footer>
+</body>
+</html>
