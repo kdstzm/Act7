@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/Calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <textarea id="salida" cols="20" rows="10"></textarea>
+    <input class="boton" type="button" value="Suma" onclick="Suma();">
+    <input class="boton" type="button" value="Resta" onclick="Resta();">
+    <input class="boton" type="button" value="Multiplicacion" onclick="Multiplicacion();">
+    <input class="boton" type="button" value="Division :)" onclick="Division();">
+    <script type="text/javascript">
+        var n1=9; var n2=16;
+        function Suma(){
+            document.getElementById("salida").innerHTML=n1+n2;
+        }
+        function Resta(){
+            document.getElementById("salida").innerHTML=n2-n1;
+        }
+        function Multiplicacion(){
+            document.getElementById("salida").innerHTML=n1*n2;
+        }
+        function Division(){
+            document.getElementById("salida").innerHTML=n2/n1;
+        }
+    </script>
+    <footer>
+        <ul>
+            <a href="Voto.html">Voto</a>
+            <a href="Cajas.html">Cajas</a>
+            <a href="Suma.html">Suma</a>
+            <a href="index.html">Index</a>
+            <a href="Factorial.html">Factorial</a>
+        </ul>
+    </footer>
+</body>
+</html>
